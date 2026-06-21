@@ -1,3 +1,5 @@
+<div align="center">
+
 # Programación de Scripts en Linux (Bash Scripting)
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
@@ -7,6 +9,10 @@
 > Automatización de tareas de administración del sistema con Bash scripting en entorno Linux.
 
 ## Descripción
+
+</div>
+
+---
 
 Laboratorio de programación de scripts en **Bash** para Linux: automatización de tareas del sistema operativo, gestión de archivos y directorios, procesamiento de texto con herramientas POSIX (`grep`, `awk`, `sed`), control de flujo, manejo de procesos en background y scripts de administración del sistema.
 
@@ -43,3 +49,12 @@ ps aux | grep nginx | awk '{print $2}' | xargs kill -9
 
 **Asignatura:** Programación bajo Unix · **Institución:** Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista Ingeniería de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
