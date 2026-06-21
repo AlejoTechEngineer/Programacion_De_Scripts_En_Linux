@@ -23,6 +23,20 @@ Laboratorio de programación de scripts en **Bash** para Linux: automatización 
 | `archivosdelinux.zip` | Scripts Bash del laboratorio |
 | `*.pdf` | Informe con scripts, ejecuciones y resultados |
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Programacion_De_Scripts_En_Linux] --> B[archivosdelinux.zip]
+    A --> C[Informe PDF]
+    B --> D[Variables y Sustitucion de Comandos]
+    B --> E[Condicionales if/case]
+    B --> F[Bucles for/while]
+    B --> G[Funciones Bash]
+    B --> H[Gestion de Procesos - ps / kill / background jobs]
+    B --> I[Procesamiento de Texto - grep / awk / sed]
+```
+
 ## Scripts implementados
 
 ```bash
@@ -51,20 +65,6 @@ ps aux | grep nginx | awk '{print $2}' | xargs kill -9
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista Ingeniería de Software
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Programacion_De_Scripts_En_Linux] --> B[archivosdelinux.zip]
-    A --> C[Informe PDF]
-    B --> D[Variables y Sustitucion de Comandos]
-    B --> E[Condicionales if/case]
-    B --> F[Bucles for/while]
-    B --> G[Funciones Bash]
-    B --> H[Gestion de Procesos - ps / kill / background jobs]
-    B --> I[Procesamiento de Texto - grep / awk / sed]
-```
 
 ## Autor
 
